@@ -18,7 +18,7 @@ CoNx = {
 'Ru' : 0.988,  #measured resistance in ohms
 'label' : 'CoN<sub>X</sub>',
 'cal' : 0.309, #calibration of the Hg/HgO electrode vs RHE converting to overpotential vs OER MUST BE UPDATED WHEN USING A DIFFERENT REF ELECTRODE
-'mass' : 1.0, #actual mass of catalyst
+'mass' : 0.99, #actual mass of catalyst
 'data_PEIS' : 'Data_1mg/2022_01_30 CoNx 1mg ref309_C05.mpt', #file path the slash needs to be '/' rather than the '\' which is automatic
 'data_CV' : 'Data_1mg/2022_01_30 CoNx 1mg ref309_set1_01_CV_C02.mpt',
 'data_CA' : 'Data_1mg/2022_01_30 CoNx 1mg ref309_CA_C02.mpt',
@@ -28,7 +28,7 @@ CoNx = {
 NiNx = {
 'Ru' : 1.15,  #measured resistance in ohms
 'cal' : 0.307, #calibration of the Hg/HgO electrode vs RHE converting to overpotential vs OER MUST BE UPDATED WHEN USING A DIFFERENT REF ELECTRODE
-'mass' : 1.0, #actual mass of catalyst,
+'mass' : 1.35, #actual mass of catalyst,
 'label' : 'NiN<sub>X</sub>',
 'data_PEIS' : 'Data_1mg/2023_01_31 NiNx 1 mg 307ref set1_C05.mpt', 
 'data_CV' : 'Data_1mg/2023_01_31 NiNx 1 mg 307ref set2_01_CV_C01.mpt',
@@ -40,7 +40,7 @@ FeNx = {
 'Ru' : 1.43,  #measured resistance in ohms
 'label' : 'FeN<sub>X</sub>',
 'cal' : 0.309, #calibration of the Hg/HgO electrode vs RHE converting to overpotential vs OER MUST BE UPDATED WHEN USING A DIFFERENT REF ELECTRODE
-'mass' : 1.0, #actual mass of catalyst
+'mass' : 1.09, #actual mass of catalyst
 'data_PEIS' : 'Data_1mg/2022_01_27 FeNx 1mg ref309_C05.mpt', 
 'data_CV' : 'Data_1mg/2022_01_27 FeNx 1mg ref309_set1_01_CV_C02.mpt',
 'data_CA' : '',
