@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np 
 import re
 #file path the slash needs to be '/' rather than the '\' which is automatic
+
 data_set = {
 
 'IrOx' : {
@@ -12,7 +13,9 @@ data_set = {
 'data_PEIS' : 'Data_1mg/2022_01_26 IrOx 1mg  ref309 elect1_C05.mpt',
 'data_CV' : 'Data_1mg/2022_01_26 IrOx 1mg  ref309 elect1 set1_01_CV_C02.mpt',
 'data_CA' : '',
+'data_CP' : '',
 'data_Tafel' : 'Data_1mg/2022_01_26 IrOx 1mg  ref309 elect1 set1_03_CP_C02.mpt', 
+'color_index' : 0,
 },
 
 'CoNx' : {
@@ -23,7 +26,9 @@ data_set = {
 'data_PEIS' : 'Data_1mg\\2022_01_30 CoNx 1mg ref309_C05.mpt', #file path the slash needs to be '/' rather than the '\' which is automatic
 'data_CV' : 'Data_1mg\\2022_01_30 CoNx 1mg ref309_set1_01_CV_C02.mpt',
 'data_CA' : 'Data_1mg/2022_01_30 CoNx 1mg ref309_CA_C02.mpt',
+'data_CP' : '',
 'data_Tafel' : 'Data_1mg/2022_01_30 CoNx 1mg ref309_set1_03_CP_C02.mpt',
+'color_index' : 1,
 },
 
 'NiNx' : {
@@ -34,7 +39,9 @@ data_set = {
 'data_PEIS' : 'Data_1mg/2023_01_31 NiNx 1 mg 307ref set1_C05.mpt', 
 'data_CV' : 'Data_1mg/2023_01_31 NiNx 1 mg 307ref set2_01_CV_C01.mpt',
 'data_CA' : 'Data_1mg/2023_01_31 NiNx 1 mg 307ref set2_04_CA_C01.mpt',
+'data_CP' : '',
 'data_Tafel': 'Data_1mg/2023_01_31 NiNx 1 mg 307ref set2_03_CP_C01.mpt',
+'color_index' : 2,
 },
 
 'FeNx' : {
@@ -45,7 +52,9 @@ data_set = {
 'data_PEIS' : 'Data_1mg/2022_01_27 FeNx 1mg ref309_C05.mpt', 
 'data_CV' : 'Data_1mg/2022_01_27 FeNx 1mg ref309_set1_01_CV_C02.mpt',
 'data_CA' : '',
+'data_CP' : '',
 'data_Tafel' : 'Data_1mg/2022_01_27 FeNx 1mg ref309_set1_03_CP_C02.mpt',
+'color_index' : 3,
 },
 
 'NiCoFeOx' : {
@@ -57,7 +66,9 @@ data_set = {
 'data_PEIS' : 'Data_1mg/2022_01_27 Ni60Co30Fe10Ox 1mg ref309_C05.mpt',
 'data_CV': 'Data_1mg/2022_01_27 Ni60Co30Fe10Ox 1mg ref309__01_CV_C02.mpt',
 'data_CA': '',
+'data_CP' : '',
 'data_Tafel': 'Data_1mg/2022_01_27 Ni60Co30Fe10Ox 1mg ref309__03_CP_C02.mpt',
+'color_index' : 4,
 },
 
 'Co30Ni60Fe10Nx' : {
@@ -68,7 +79,9 @@ data_set = {
 'data_PEIS' : 'Data_1mg/2022_01_25 Co30Ni60Fe10Nx 1mg  ref309 elect1 set_C05.mpt',
 'data_CV': 'Data_1mg/2022_01_25 Co30Ni60Fe10Nx 1mg  ref309 elect1 set1_01_CV_C02.mpt',
 'data_CA' : '',
+'data_CP' : 'Data_1/2022_01_25 Co30Ni60Fe10Nx 1mg  ref309 elect1 cv and bulk_03_CP_C02.mpt',
 'data_Tafel': 'Data_1mg/2022_01_25 Co30Ni60Fe10Nx 1mg  ref309 elect1 tafel_C02.mpt',
+'color_index' : 5,
 },
 
 'Co45Ni45Fe10Nx' : {
@@ -79,7 +92,9 @@ data_set = {
 'data_PEIS' : 'Data_1mg/2023_01_31_Co45Ni45Fe10Nx 1mg ref309_01_PEIS_C05.mpt',
 'data_CV' : 'Data_1mg/2023_01_31_Co45Ni45Fe10Nx 1mg ref309_02_CV_C05.mpt',
 'data_CA' : 'Data_1mg/2023_01_31_Co45Ni45Fe10Nx 1mg ref309_bulk_C01.mpt',
-'data_Tafel' : 'Data_1mg/2023_01_31_Co45Ni45Fe10Nx 1mg ref309_04_CP_C05.mpt'
+'data_CP' : '',
+'data_Tafel' : 'Data_1mg/2023_01_31_Co45Ni45Fe10Nx 1mg ref309_04_CP_C05.mpt',
+'color_index' : 6,
 },
 
 'CoNiFeNx 400C 24h' : {
@@ -90,7 +105,9 @@ data_set = {
 'data_PEIS' : 'Data_1mg/2022_01_26 IrOx 1mg  ref309 elect1_C05.mpt',
 'data_CV' : 'Data_Lola\CoNiFeNx_400ºC_24h_13102022\Electrodes_19012023\\2023_01_20_CoNiFeNx_400ºC_24h_electrode1_19012023_1_01_CV_C01.mpr',
 'data_CA' : '',
+'data_CP' : '',
 'data_Tafel' : 'Data_1mg/2022_01_26 IrOx 1mg  ref309 elect1 set1_03_CP_C02.mpt', 
+'color_index' : 7,
 },
 
 }
