@@ -1,3 +1,0 @@
-EC-Lab ASCII FILE
-Nb header lines : 3                           
-freq/Hz	Re(Z)/Ohm	-Im(Z)/Ohm	|Z|/Ohm	Phase(Z)/deg	time/s	<Ewe>/V	<I>/mA	Cs/µF	Cp/µF	cycle number	I Range	|Ewe|/V	|I|/A	Ns	(Q-Qo)/mA.h	<Ece>/V	|Ece|/V	Phase(Zce)/deg	|Zce|/Ohm	Re(Zce)/Ohm	-Im(Zce)/Ohm	Phase(Zwe-ce)/deg	|Zwe-ce|/Ohm	Re(Zwe-ce)/Ohm	-Im(Zwe-ce)/Ohm	Re(Y)/Ohm-1	Im(Y)/Ohm-1	|Y|/Ohm-1	Phase(Y)/deg	dq/mA.h	
