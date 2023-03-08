@@ -18,18 +18,18 @@ data_set = {
 'color_index' : 0,
 },
 
-'Ni60Co30Fe10Ox_elect2' : {
-'Ru' : 1.14,  #measured resistance in ohms
-'label' : 'Ni<sub>60</sub>Co<sub>30</sub>Fe<sub>10</sub>O<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.10,
-'data_PEIS' : 'Data_FirstPaper2\/2023_02_23_Scott_Ni60Co30Fe10Ox_Elect2_1100ug_307mV_PEIS_C05.mpr',
-'data_CV' : 'Data_FirstPaper2\/2023_02_23_Scott_Ni60Co30Fe10Ox_Elect2_1100ug_307mV_01_CV_C04.mpr',
-'data_CA' : '',
-'data_CP' : '',
-'data_Tafel' : 'Data_FirstPaper2\/2023_02_23_Scott_Ni60Co30Fe10Ox_Elect2_1100ug_307mV_04_CP_C04.mpr', 
-'color_index' : 1,
-},
+# 'Ni60Co30Fe10Ox_elect2' : {
+# 'Ru' : 1.14,  #measured resistance in ohms
+# 'label' : 'Ni<sub>60</sub>Co<sub>30</sub>Fe<sub>10</sub>O<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.10,
+# 'data_PEIS' : 'Data_FirstPaper2\/2023_02_23_Scott_Ni60Co30Fe10Ox_Elect2_1100ug_307mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data_FirstPaper2\/2023_02_23_Scott_Ni60Co30Fe10Ox_Elect2_1100ug_307mV_01_CV_C04.mpr',
+# 'data_CA' : '',
+# 'data_CP' : '',
+# 'data_Tafel' : 'Data_FirstPaper2\/2023_02_23_Scott_Ni60Co30Fe10Ox_Elect2_1100ug_307mV_04_CP_C04.mpr', 
+# 'color_index' : 1,
+# },
 
 'FeNx_3' : {
 'Ru' : 1.00,  #measured resistance in ohms
@@ -70,18 +70,18 @@ data_set = {
 'color_index' : 5,
 },
 
-'Co30Ni60Fe10Nx_3' : {
-'Ru' : 0.77,  #measured resistance in ohms
-'label' : 'Co<sub>30</sub>Ni<sub>60</sub>Fe<sub>10</sub>N<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 0.94,
-'data_PEIS' : 'Data_FirstPaper2\/2023_02_28_Scott_Co30Ni60Fe10Nx_Elect3_940ug_307mV_PEIS_C05.mpr',
-'data_CV' : 'Data_FirstPaper2\/2023_02_28_Scott_Co30Ni60Fe10Nx_Elect3_940ug_307mV_01_CV_C04.mpr',
-'data_CA' : 'Data_FirstPaper2\/2023_02_28_Scott_Co30Ni60Fe10Nx_Elect3_940ug_307mV_03_CA_C04.mpr',
-'data_CP' : '',
-'data_Tafel' : 'Data_FirstPaper2\/2023_02_28_Scott_Co30Ni60Fe10Nx_Elect3_940ug_307mV_04_CP_C04.mpr', 
-'color_index' : 2,
-},
+# 'Co30Ni60Fe10Nx_3' : {
+# 'Ru' : 0.77,  #measured resistance in ohms
+# 'label' : 'Co<sub>30</sub>Ni<sub>60</sub>Fe<sub>10</sub>N<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 0.94,
+# 'data_PEIS' : 'Data_FirstPaper2\/2023_02_28_Scott_Co30Ni60Fe10Nx_Elect3_940ug_307mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data_FirstPaper2\/2023_02_28_Scott_Co30Ni60Fe10Nx_Elect3_940ug_307mV_01_CV_C04.mpr',
+# 'data_CA' : 'Data_FirstPaper2\/2023_02_28_Scott_Co30Ni60Fe10Nx_Elect3_940ug_307mV_03_CA_C04.mpr',
+# 'data_CP' : '',
+# 'data_Tafel' : 'Data_FirstPaper2\/2023_02_28_Scott_Co30Ni60Fe10Nx_Elect3_940ug_307mV_04_CP_C04.mpr', 
+# 'color_index' : 2,
+# },
 
 'Co45Ni45Fe10Nx' : {
 'Ru' : 1.00, #measured resistance in ohms
