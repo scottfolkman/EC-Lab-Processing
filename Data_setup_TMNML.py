@@ -5,18 +5,31 @@ import re
 
 data_set = {
 
-# 'Co50 Ni0 Fe50 300C 2h' : {
-# 'Ru' : 1.00,  #measured resistance in ohms
-# 'label' : 'Co50 Ni0 Fe50 300C 2h',
-# 'cal' : 0.307, #vs OER
-# 'mass' : 1.00,
-# 'data_PEIS' : '',
-# 'data_CV' : '',
-# 'data_CA' : '',
-# 'data_CP' : '',
-# 'data_Tafel' : '', 
-# 'color_index' : 0,
-# },
+#'Co50 Ni0 Fe50 300C 2h_elect1': {
+#'Ru' : 1.12,  #measured resistance in ohms
+#'label' : 'Co50 Ni0 Fe50 300C 2h_',
+#'cal' : 0.299, #vs OER
+#'mass' : 1.13,
+#'data_PEIS' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect1_1130ug_299mV_PEIS_C05.mpr',
+#'data_CV' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect1_1130ug_299mV_01_CV_C02.mpr',
+#'data_CA' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect1_1130ug_299mV_03_CA_C02.mpr',
+#'data_CP' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect1_1130ug_299mV_04_CP_C02.mpr',
+#'data_Tafel' : '', 
+#'color_index' : 0,
+#},
+
+#'Co50 Ni0 Fe50 300C 2h_elect2' : {
+#'Ru' : 1.03,  #measured resistance in ohms
+#'label' : 'Co50 Ni0 Fe50 300C 2h',
+#'cal' : 0.299, #vs OER
+#'mass' : 0.960,
+#'data_PEIS' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect2_960ug_299mV_PEIS_C05.mpr',
+#'data_CV' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect2_960ug_299mV_01_CV_C02.mpr',
+#'data_CA' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect2_960ug_299mV_03_CA_C02.mpr',
+#'data_CP' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect2_960ug_299mV_04_CP_C02.mpr',
+#'data_Tafel' : '', 
+#'color_index' : 0,
+#},
 
 # 'Co0 Ni50 Fe50 400C 2h' : {
 # 'Ru' : 0.68,  #measured resistance in ohms
@@ -70,15 +83,28 @@ data_set = {
 # 'color_index' : 4,
 # },
 
-# 'Co0 Ni0 Fe100 400C 6h' : {
-# 'Ru' : 1.00, #measured resistance in ohms
+# 'Co0 Ni0 Fe100 400C 6h_elect1' : {
+# 'Ru' : 1.05, #measured resistance in ohms
 # 'label' : 'Co0 Ni0 Fe100 400C 6h',
 # 'cal' : 0.299, #vs OER
-# 'mass' : 1.00,
-# 'data_PEIS' : '',
-# 'data_CV' : '',
-# 'data_CA' : '',
-# 'data_CP' : '',
+# 'mass' : 0.99,
+# 'data_PEIS' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect1_990ug_299mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect1_990ug_299mV_01_CV_C04.mpr',
+# 'data_CA' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect1_990ug_299mV_03_CA_C04.mpr',
+# 'data_CP' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect1_990ug_299mV_04_CP_C04.mpr',
+# 'data_Tafel' : '', 
+# 'color_index' : 5,
+# },
+
+# 'Co0 Ni0 Fe100 400C 6h_elect3' : {
+# 'Ru' : 1.14, #measured resistance in ohms
+# 'label' : 'Co0 Ni0 Fe100 400C 6h',
+# 'cal' : 0.299, #vs OER
+# 'mass' : 0.94,
+# 'data_PEIS' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect3_940ug_299mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect3_940ug_299mV_01_CV_C04.mpr',
+# 'data_CA' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect3_940ug_299mV_03_CA_C04.mpr',
+# 'data_CP' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect3_940ug_299mV_04_CP_C04.mpr',
 # 'data_Tafel' : '', 
 # 'color_index' : 5,
 # },
@@ -96,15 +122,28 @@ data_set = {
 # 'color_index' : 6,
 # },
 
-# 'Co25 Ni0 Fe75 800C 6h' : {
-# 'Ru' : 1.00, #measured resistance in ohms
+# 'Co25 Ni0 Fe75 800C 6h_Elect2' : {
+# 'Ru' : 0.734, #measured resistance in ohms
 # 'label' : 'Co25 Ni0 Fe75 800C 6h',
 # 'cal' : 0.299, #vs OER
-# 'mass' : 1.00,
-# 'data_PEIS' : '',
-# 'data_CV' : '',
-# 'data_CA' : '',
-# 'data_CP' : '',
+# 'mass' : 1.001,
+# 'data_PEIS' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect2_1001ug_299mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect2_1001ug_299mV_01_CV_C04.mpr',
+# 'data_CA' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect2_1001ug_299mV_03_CA_C04.mpr',
+# 'data_CP' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect2_1001ug_299mV_04_CP_C04.mpr',
+# 'data_Tafel' : '', 
+# 'color_index' : 7,
+# },
+
+# 'Co25 Ni0 Fe75 800C 6h_Elect3' : {
+# 'Ru' : 1.07, #measured resistance in ohms
+# 'label' : 'Co25 Ni0 Fe75 800C 6h',
+# 'cal' : 0.299, #vs OER
+# 'mass' : 0.970,
+# 'data_PEIS' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect3_970ug_299mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect3_970ug_299mV_01_CV_C04.mpr',
+# 'data_CA' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect3_970ug_299mV_03_CA_C04.mpr',
+# 'data_CP' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect3_970ug_299mV_04_CP_C04.mpr',
 # 'data_Tafel' : '', 
 # 'color_index' : 7,
 # },
@@ -200,18 +239,32 @@ data_set = {
 # 'color_index' : 14,
 # },
 
-# 'Co75 Ni0 Fe25 800C 24h' : {
-# 'Ru' : 1.00, #measured resistance in ohms
+# 'Co75 Ni0 Fe25 800C 24h_Elect1' : {
+# 'Ru' : 1.25, #measured resistance in ohms
 # 'label' : 'Co75 Ni0 Fe25 800C 24h',
 # 'cal' : 0.299, #vs OER
-# 'mass' : 1.00,
-# 'data_PEIS' : '',
-# 'data_CV' : '',
-# 'data_CA' : '',
-# 'data_CP' : '',
+# 'mass' : 1.13,
+# 'data_PEIS' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect1_1130ug_299mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect1_1130ug_299mV_01_CV_C01.mpr',
+# 'data_CA' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect1_1130ug_299mV_03_CA_C01.mpr',
+# 'data_CP' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect1_1130ug_299mV_04_CP_C01.mpr',
 # 'data_Tafel' : '', 
 # 'color_index' : 15,
 # },
+
+# 'Co75 Ni0 Fe25 800C 24h_Elect3' : {
+# 'Ru' : 1.47, #measured resistance in ohms
+# 'label' : 'Co75 Ni0 Fe25 800C 24h',
+# 'cal' : 0.299, #vs OER
+# 'mass' : 1.04,
+# 'data_PEIS' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect3_1040ug_299mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect3_1040ug_299mV_01_CV_C01.mpr',
+# 'data_CA' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect3_1040ug_299mV_03_CA_C01.mpr',
+# 'data_CP' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect3_1040ug_299mV_04_CP_C01.mpr',
+# 'data_Tafel' : '', 
+# 'color_index' : 15,
+# },
+
 
 # '17' : {
 # 'Ru' : 1.00, #measured resistance in ohms
