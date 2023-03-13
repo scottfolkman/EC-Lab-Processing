@@ -15,6 +15,8 @@ data_set = {
 'data_CA' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect1_1130ug_299mV_03_CA_C02.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect1_1130ug_299mV_04_CP_C02.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 0,
 },
 
@@ -28,6 +30,8 @@ data_set = {
 'data_CA' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect2_960ug_299mV_03_CA_C02.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\LoleJurado\Co50Fe50Nx_2h_300C\/2023_03_01_LJ_Co50Fe50Nx_2h_300C_Elect2_960ug_299mV_04_CP_C02.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 0,
 },
 
@@ -40,7 +44,9 @@ data_set = {
 'data_CV' : 'Data for ML\Scott\/2023_02_28_Scott_Co0Ni50Fe50Nx_2h_400C_Elect3_1100ug_307mV_01_CV_C04.mpr',
 'data_CA' : 'Data for ML\Scott\/2023_02_28_Scott_Co0Ni50Fe50Nx_2h_400C_Elect3_1100ug_307mV_03_CA_C04.mpr',
 'data_CP' : '',
-'data_Tafel' : 'Data for ML\Scott\/2023_02_28_Scott_Co0Ni50Fe50Nx_2h_400C_Elect3_1100ug_307mV_04_CP_C04.mpr', 
+'data_Tafel' : 'Data for ML\Scott\/2023_02_28_Scott_Co0Ni50Fe50Nx_2h_400C_Elect3_1100ug_307mV_04_CP_C04.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99, 
 'color_index' : 1,
 },
 
@@ -54,6 +60,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 2,
 # },
 
@@ -67,6 +75,8 @@ data_set = {
 'data_CA' : 'Data for ML\Scott\/2023_02_20_Scott_Co33Ni33Fe33_2h_800C_Elect1_1050ug_307mV_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Scott\/2023_02_20_Scott_Co33Ni33Fe33_2h_800C_Elect1_1050ug_307mV_Tafel_C01.mpr', # no problems with current
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 3,
 },
 
@@ -80,6 +90,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 4,
 # },
 
@@ -93,6 +105,8 @@ data_set = {
 'data_CA' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect1_990ug_299mV_03_CA_C04.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect1_990ug_299mV_04_CP_C04.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 5,
 },
 
@@ -106,6 +120,8 @@ data_set = {
 'data_CA' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect3_940ug_299mV_03_CA_C04.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\LoleJurado\Fe100Nx_6h_400C\/2023_02_24_LJ_FeNx_6h_400C_Elect3_940ug_299mV_04_CP_C04.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 5,
 },
 
@@ -119,6 +135,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 6,
 # },
 
@@ -132,6 +150,8 @@ data_set = {
 'data_CA' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect2_1001ug_299mV_03_CA_C04.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect2_1001ug_299mV_04_CP_C04.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 7,
 },
 
@@ -145,6 +165,8 @@ data_set = {
 'data_CA' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect3_970ug_299mV_03_CA_C04.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\LoleJurado\Co25Fe75Nx_6h_800C\/2023_02_22_LJ_Co25Ni0Fe75_6h_800C_Elect3_970ug_299mV_04_CP_C04.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 7,
 },
 
@@ -157,7 +179,9 @@ data_set = {
 # 'data_CV' : '',
 # 'data_CA' : '',
 # 'data_CP' : '',
-# 'data_Tafel' : '', 
+# 'data_Tafel' : '',
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 8,
 # },
 
@@ -171,6 +195,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 9,
 # },
 
@@ -184,6 +210,8 @@ data_set = {
 'data_CA' : 'Data for ML\Scott\/2023_03_02_Scott_Co0Ni25Fe75Nx_12h_600C_Elect2_1010ug_307mV_03_CA_C04.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Scott\/2023_03_02_Scott_Co0Ni25Fe75Nx_12h_600C_Elect2_1010ug_307mV_04_CP_C04.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 10,
 },
 
@@ -197,6 +225,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 11,
 # },
 
@@ -209,7 +239,9 @@ data_set = {
 # 'data_CV' : '',
 # 'data_CA' : '',
 # 'data_CP' : '',
-# 'data_Tafel' : '', 
+# 'data_Tafel' : '',
+# 'fit_min': -5.01,
+# 'fit_max': -1.99, 
 # 'color_index' : 12,
 # },
 
@@ -223,6 +255,8 @@ data_set = {
 'data_CA' : 'Data for ML\Scott\/2023_03_01_Scott_Co50Ni25Fe25Nx_24h_400C_Elect1_9900ug_307mV_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Scott\/2023_03_01_Scott_Co50Ni25Fe25Nx_24h_400C_Elect1_9900ug_307mV_04_CP_C01.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 13,
 },
 
@@ -236,6 +270,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 14,
 # },
 
@@ -249,6 +285,8 @@ data_set = {
 'data_CA' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect1_1130ug_299mV_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect1_1130ug_299mV_04_CP_C01.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 15,
 },
 
@@ -262,6 +300,8 @@ data_set = {
 'data_CA' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect3_1040ug_299mV_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\LoleJurado\Co75Fe25Nx_24h_800C\/2023_03_07_LJ_Co75Fe25Nx_24h_800C_Elect3_1040ug_299mV_04_CP_C01.mpr', 
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' : 15,
 },
 
@@ -276,6 +316,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 16,
 # },
 
@@ -289,6 +331,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 17,
 # },
 
@@ -302,6 +346,8 @@ data_set = {
 # 'data_CA' : '',
 # 'data_CP' : '',
 # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 18,
 # },
 
@@ -314,7 +360,9 @@ data_set = {
 # 'data_CV' : '',
 # 'data_CA' : '',
 # 'data_CP' : '',
-# 'data_Tafel' : '', 
+# # 'data_Tafel' : '', 
+# 'fit_min': -5.01,
+# 'fit_max': -1.99,
 # 'color_index' : 19,
 # },
 
@@ -328,6 +376,8 @@ data_set = {
 'data_CA' : 'Data for ML\Ilario/2023_02_28_IG_NiNx_12h_800C_Elect1_200ug_299mV_DJF3-IGA1_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Ilario/2023_02_28_IG_NiNx_12h_800C_Elect1_200ug_299mV_DJF3-IGA1_04_CP_C01.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' :14,
 },
 
@@ -341,6 +391,8 @@ data_set = {
 'data_CA' : 'Data for ML\Ilario/2023_03_01_IG_NiNx_12h_800C_Elect2_230ug_304mV_DJF3-IGA2_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Ilario/2023_03_01_IG_NiNx_12h_800C_Elect2_230ug_304mV_DJF3-IGA2_04_CP_C01.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' :14,
 },
 
@@ -354,6 +406,8 @@ data_set = {
 'data_CA' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect4_810ug_299mV_DJF3-IGD1_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect4_810ug_299mV_DJF3-IGD1_04_CP_C01.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' :14,
 },
 
@@ -367,6 +421,8 @@ data_set = {
 'data_CA' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect5_490ug_299mV_DJF3-IGD2_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect5_490ug_299mV_DJF3-IGD2_04_CP_C01.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' :14,
 },
 
@@ -381,6 +437,8 @@ data_set = {
 'data_CA' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect1_950ug_304mV_DJF3-IGB1_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect1_950ug_304mV_DJF3-IGB1_04_CP_C01.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' :15,
 },
 
@@ -394,6 +452,8 @@ data_set = {
 'data_CA' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect2_970ug_304mV_DJF3-IGB2-2ndpart_01_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect2_970ug_304mV_DJF3-IGB2-2ndpart_02_CP_C01.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' :15,
 },
 
@@ -407,6 +467,8 @@ data_set = {
 'data_CA' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect1_1120ug_304mV_DJF3-IGC1_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect1_1120ug_304mV_DJF3-IGC1_04_CP_C01.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' :16,
 },
 
@@ -420,6 +482,8 @@ data_set = {
 'data_CA' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect2_1150ug_304mV_DJF3-IGC2_03_CA_C01.mpr',
 'data_CP' : '',
 'data_Tafel' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect2_1150ug_304mV_DJF3-IGC2_04_CP_C01.mpr',
+'fit_min': -5.01,
+'fit_max': -1.99,
 'color_index' :16,
 },
 
