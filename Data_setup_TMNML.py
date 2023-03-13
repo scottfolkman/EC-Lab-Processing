@@ -318,6 +318,111 @@ data_set = {
 # 'color_index' : 19,
 # },
 
+'Co0 Ni100 Fe0 800C 12h 1' : {
+'Ru' :1.15, #measured resistance in ohms
+'label' :'Co0 Ni100 Fe0 800C 12h' ,
+'cal' :0.299, #vs OER
+'mass' :0.2,
+'data_PEIS' : 'Data for ML\Ilario/2023_02_28_IG_NiNx_12h_800C_Elect1_200ug_299mV_DJF3-IGA1_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\Ilario/2023_02_28_IG_NiNx_12h_800C_Elect1_200ug_299mV_DJF3-IGA1_01_CV_C01.mpr',
+'data_CA' : 'Data for ML\Ilario/2023_02_28_IG_NiNx_12h_800C_Elect1_200ug_299mV_DJF3-IGA1_03_CA_C01.mpr',
+'data_CP' : '',
+'data_Tafel' : 'Data for ML\Ilario/2023_02_28_IG_NiNx_12h_800C_Elect1_200ug_299mV_DJF3-IGA1_04_CP_C01.mpr',
+'color_index' :14,
+}
+
+'Co0 Ni100 Fe0 800C 12h 2' : {
+'Ru' :1.4, #measured resistance in ohms
+'label' :'Co0 Ni100 Fe0 800C 12h' ,
+'cal' :0.304, #vs OER
+'mass' :0.23,
+'data_PEIS' : 'Data for ML\Ilario/2023_03_01_IG_NiNx_12h_800C_Elect2_230ug_304mV_DJF3-IGA2_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\Ilario/2023_03_01_IG_NiNx_12h_800C_Elect2_230ug_304mV_DJF3-IGA2_01_CV_C01.mpr',
+'data_CA' : 'Data for ML\Ilario/2023_03_01_IG_NiNx_12h_800C_Elect2_230ug_304mV_DJF3-IGA2_03_CA_C01.mpr',
+'data_CP' : '',
+'data_Tafel' : 'Data for ML\Ilario/2023_03_01_IG_NiNx_12h_800C_Elect2_230ug_304mV_DJF3-IGA2_04_CP_C01.mpr',
+'color_index' :14,
+}
+
+'Co0 Ni100 Fe0 800C 12h 4' : {
+'Ru' :, #measured resistance in ohms
+'label' :'Co0 Ni100 Fe0 800C 12h' ,
+'cal' :0.299, #vs OER
+'mass' :0.81,
+'data_PEIS' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect4_810ug_299mV_DJF3-IGD1_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect4_810ug_299mV_DJF3-IGD1_01_CV_C01.mpr',
+'data_CA' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect4_810ug_299mV_DJF3-IGD1_03_CA_C01.mpr',
+'data_CP' : '',
+'data_Tafel' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect4_810ug_299mV_DJF3-IGD1_04_CP_C01.mpr',
+'color_index' :14,
+}
+
+'Co0 Ni100 Fe0 800C 12h 5' : {
+'Ru' :, #measured resistance in ohms
+'label' :'Co0 Ni100 Fe0 800C 12h' ,
+'cal' :0.299, #vs OER
+'mass' :0.49,
+'data_PEIS' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect5_490ug_299mV_DJF3-IGD2_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect5_490ug_299mV_DJF3-IGD2_01_CV_C01.mpr',
+'data_CA' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect5_490ug_299mV_DJF3-IGD2_03_CA_C01.mpr',
+'data_CP' : '',
+'data_Tafel' : 'Data for ML\Ilario/2023_03_10_IG_NiNx_12h_800C_Elect5_490ug_299mV_DJF3-IGD2_04_CP_C01.mpr',
+'color_index' :14,
+}
+
+
+'Co75 Ni25 Fe0 300C 24h 1' : {
+'Ru' :1.44, #measured resistance in ohms
+'label' :'Co75 Ni25 Fe0 300C 24h' ,
+'cal' :0.304, #vs OER
+'mass' :0.95,
+'data_PEIS' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect1_950ug_304mV_DJF3-IGB1_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect1_950ug_304mV_DJF3-IGB1_01_CV_C01.mpr',
+'data_CA' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect1_950ug_304mV_DJF3-IGB1_03_CA_C01.mpr',
+'data_CP' : '',
+'data_Tafel' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect1_950ug_304mV_DJF3-IGB1_04_CP_C01.mpr',
+'color_index' :15,
+}
+
+'Co75 Ni25 Fe0 300C 24h 2' : {
+'Ru' :1.01, #measured resistance in ohms
+'label' :'Co75 Ni25 Fe0 300C 24h' ,
+'cal' :0.304, #vs OER
+'mass' :0.97,
+'data_PEIS' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect2_970ug_304mV_DJF3-IGB2_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect2_970ug_304mV_DJF3-IGB2_01_CV_C01.mpr',
+'data_CA' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect2_970ug_304mV_DJF3-IGB2-2ndpart_01_CA_C01.mpr',
+'data_CP' : '',
+'data_Tafel' : 'Data for ML\Ilario/2023_02_28_IG_Co75Ni25Nx_24h_300C_Elect2_970ug_304mV_DJF3-IGB2-2ndpart_02_CP_C01.mpr',
+'color_index' :15,
+}
+
+'Co50 Ni50 Fe0 300C 6h 1' : {
+'Ru' :0.978, #measured resistance in ohms
+'label' :'Co50 Ni50 Fe0 300C 6h' ,
+'cal' :0.304, #vs OER
+'mass' :1.12,
+'data_PEIS' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect1_1120ug_304mV_DJF3-IGC1_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect1_1120ug_304mV_DJF3-IGC1_01_CV_C01.mpr',
+'data_CA' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect1_1120ug_304mV_DJF3-IGC1_03_CA_C01.mpr',
+'data_CP' : '',
+'data_Tafel' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect1_1120ug_304mV_DJF3-IGC1_04_CP_C01.mpr',
+'color_index' :16,
+}
+
+'Co50 Ni50 Fe0 300C 6h 2' : {
+'Ru' :0.675, #measured resistance in ohms
+'label' :'Co50 Ni50 Fe0 300C 6h' ,
+'cal' :0.304, #vs OER
+'mass' :1.15,
+'data_PEIS' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect2_1150ug_304mV_DJF3-IGC2_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect2_1150ug_304mV_DJF3-IGC2_01_CV_C01.mpr',
+'data_CA' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect2_1150ug_304mV_DJF3-IGC2_03_CA_C01.mpr',
+'data_CP' : '',
+'data_Tafel' : 'Data for ML\Ilario/2023_03_03_IG_Co50Ni50Nx_6h_300C_Elect2_1150ug_304mV_DJF3-IGC2_04_CP_C01.mpr',
+'color_index' :16,
+}
+
 
 }
 
