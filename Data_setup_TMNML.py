@@ -50,14 +50,44 @@ data_set = {
 'color_index' : 1,
 },
 
-'Co25 Ni25 Fe50 600C 2h' : {
+'Co25 Ni25 Fe50 600C 2h_elect1' : {
 'Ru' : 1.00,  #measured resistance in ohms
-'label' : 'Co25 Ni25 Fe50 600C 2h',
-'cal' : 0.307, #vs OER
-'mass' : 1.00,
-'data_PEIS' : '',
-'data_CV' : '',
-'data_CA' : '',
+'label' : 'Co25 Ni25 Fe50 600C 2h_elect1',
+'cal' : 0.299, #vs OER
+'mass' : 1.10,
+'data_PEIS' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31__LJ_Co25Ni25Fe50Nx_2h_600C_elect1_1100ug_299mV_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect1_1100ug_299mV_1_01_CV_C02.mpr',
+'data_CA' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect1_1100ug_299mV_1_03_CA_C02.mpr',
+'data_CP' : '',
+'data_Tafel' : '', 
+'fit_min': -5.01,
+'fit_max': -1.99,
+'color_index' : 2,
+},
+
+'Co25 Ni25 Fe50 600C 2h_elect2' : {
+'Ru' : 1.00,  #measured resistance in ohms
+'label' : 'Co25 Ni25 Fe50 600C 2h_elect2',
+'cal' : 0.299, #vs OER
+'mass' : 1.22,
+'data_PEIS' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect2_1220ug__299mV_1_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect2_1220ug__299mV_1_01_CV_C02.mpr',
+'data_CA' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect2_1220ug__299mV_1_03_CA_C02.mpr',
+'data_CP' : '',
+'data_Tafel' : '', 
+'fit_min': -5.01,
+'fit_max': -1.99,
+'color_index' : 2,
+},
+
+'Co25 Ni25 Fe50 600C 2h_elect3' : {
+'Ru' : 1.00,  #measured resistance in ohms
+'label' : 'Co25 Ni25 Fe50 600C 2h_elect2',
+'cal' : 0.299, #vs OER
+'mass' : 0.950,
+'data_PEIS' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect3_950ug__299mV_PEIS_C05.mpr',
+'data_CV' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect3_950ug__299mV_1_01_CV_C02.mpr',
+'data_CA' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect3_950ug__299mV_03_CA_C02.mpr',
 'data_CP' : '',
 'data_Tafel' : '', 
 'fit_min': -5.01,
