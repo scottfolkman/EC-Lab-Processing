@@ -51,7 +51,7 @@ data_set = {
 },
 
 'Co25 Ni25 Fe50 600C 2h_elect1' : {
-'Ru' : 1.00,  #measured resistance in ohms
+'Ru' : 1.23,  #measured resistance in ohms
 'label' : 'Co25 Ni25 Fe50 600C 2h_elect1',
 'cal' : 0.299, #vs OER
 'mass' : 1.10,
@@ -66,7 +66,7 @@ data_set = {
 },
 
 'Co25 Ni25 Fe50 600C 2h_elect2' : {
-'Ru' : 1.00,  #measured resistance in ohms
+'Ru' : 1.16,  #measured resistance in ohms
 'label' : 'Co25 Ni25 Fe50 600C 2h_elect2',
 'cal' : 0.299, #vs OER
 'mass' : 1.22,
@@ -81,8 +81,8 @@ data_set = {
 },
 
 'Co25 Ni25 Fe50 600C 2h_elect3' : {
-'Ru' : 1.00,  #measured resistance in ohms
-'label' : 'Co25 Ni25 Fe50 600C 2h_elect2',
+'Ru' : 1.38,  #measured resistance in ohms
+'label' : 'Co25 Ni25 Fe50 600C 2h_elect3',
 'cal' : 0.299, #vs OER
 'mass' : 0.950,
 'data_PEIS' : 'Data for ML\LoleJurado\Co25Ni25Fe50Nx_2h_600C\/2023_01_31_LJ_Co25Ni25Fe50Nx_2h_600C_elect3_950ug__299mV_PEIS_C05.mpr',
