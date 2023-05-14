@@ -18,22 +18,29 @@ data_set = {
 'fit_min': -4,
 'fit_max': -1.9,
 'color_index' : 0,
+'line_style': 'lines',
+'x_pos': '0.82',
+'y_pos': '0.85',
+
 },
 
-'Ni60Co30Fe10Ox_' : {
-'Ru' : 1.00,  #measured resistance in ohms
-'label' : 'Ni<sub>60</sub>Co<sub>30</sub>Fe<sub>10</sub>O<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.04,
-'data_PEIS' : '',
-'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_08_Scott_NiCoFeOx_Elect1_1040ug_307mV_350mVCA_01_CV_C04.mpr',
-'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_08_Scott_NiCoFeOx_Elect1_1040ug_307mV_350mVCA_03_CA_C04.mpr',
-'data_CP' : '',
-'data_Tafel' : 'Data_FirstPaper\/2022_01_27 Ni60Co30Fe10Ox 1mg ref309__03_CP_C02.mpr', 
-'fit_min': -4.3,
-'fit_max': -3.25,
-'color_index' : 1,
-},
+# 'Ni60Co30Fe10Ox_' : {
+# 'Ru' : 1.00,  #measured resistance in ohms
+# 'label' : 'Ni<sub>60</sub>Co<sub>30</sub>Fe<sub>10</sub>O<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.04,
+# 'data_PEIS' : '',
+# 'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_08_Scott_NiCoFeOx_Elect1_1040ug_307mV_350mVCA_01_CV_C04.mpr',
+# 'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_08_Scott_NiCoFeOx_Elect1_1040ug_307mV_350mVCA_03_CA_C04.mpr',
+# 'data_CP' : '',
+# 'data_Tafel' : 'Data_FirstPaper\/2022_01_27 Ni60Co30Fe10Ox 1mg ref309__03_CP_C02.mpr', 
+# 'fit_min': -4.3,
+# 'fit_max': -3.25,
+# 'color_index' : 1,
+# 'line_style': 'lines',
+# 'x_pos': '0.5',
+# 'y_pos': '0.5',
+# },
 
 'FeNx_' : {
 'Ru' : 1.10,  #measured resistance in ohms
@@ -48,6 +55,9 @@ data_set = {
 'fit_min': -4.8,
 'fit_max': -3.1,
 'color_index' : 3,
+'line_style': 'lines',
+'x_pos': '0.95',
+'y_pos': '0.1',
 },
 
 'CoNx_' : {
@@ -63,6 +73,9 @@ data_set = {
 'fit_min': -3.8,
 'fit_max': -2.8,
 'color_index' : 4,
+'line_style': 'lines',
+'x_pos': '0.95',
+'y_pos': '0.22',
 },
 
 'NiNx_' : {
@@ -78,6 +91,9 @@ data_set = {
 'fit_min': -5.1,
 'fit_max': -3.5,
 'color_index' : 5,
+'line_style': 'lines',
+'x_pos': '1.0',
+'y_pos': '0.02',
 },
 
 'Co57Ni14Fe29Nx_' : {
@@ -93,6 +109,9 @@ data_set = {
 'fit_min': -3.6,
 'fit_max': -2, 
 'color_index' : 2,
+'line_style': 'lines',
+'x_pos': '0.5',
+'y_pos': '0.95',
 },
 
 'Co45Ni45Fe10Nx' : {
@@ -108,6 +127,9 @@ data_set = {
 'fit_min': -3.6,
 'fit_max': -2,
 'color_index' : 6,
+'line_style': 'lines',
+'x_pos': '1.02',
+'y_pos': '0.62',
 },
 
 # 'Co57Ni14Fe29Nx' : {
