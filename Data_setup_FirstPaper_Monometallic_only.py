@@ -140,20 +140,20 @@ data_set = {
 'color_index' : 5,
 },
 # this is the one I use
-'Co57Ni14Fe29Nx_1' : {
-'Ru' : 0.736,  #measured resistance in ohms
-'label' : 'Co<sub>57</sub>Ni<sub>14</sub>Fe<sub>29</sub>N<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.07,
-'data_PEIS' : '',
-'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_09_Scott_Co57Ni14Fe29Nx_6h_425C_Elect11_1070ug_307mV_350mVCA_01_CV_C04.mpr',
-'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_09_Scott_Co57Ni14Fe29Nx_6h_425C_Elect11_1070ug_307mV_350mVCA_03_CA_C04.mpr',
-'data_CP' : '',
-'data_Tafel' : '',
-'fit_min': -3.6,
-'fit_max': -2, 
-'color_index' : 2,
-},
+# 'Co57Ni14Fe29Nx_1' : {
+# 'Ru' : 0.736,  #measured resistance in ohms
+# 'label' : 'Co<sub>57</sub>Ni<sub>14</sub>Fe<sub>29</sub>N<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.07,
+# 'data_PEIS' : '',
+# 'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_09_Scott_Co57Ni14Fe29Nx_6h_425C_Elect11_1070ug_307mV_350mVCA_01_CV_C04.mpr',
+# 'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_09_Scott_Co57Ni14Fe29Nx_6h_425C_Elect11_1070ug_307mV_350mVCA_03_CA_C04.mpr',
+# 'data_CP' : '',
+# 'data_Tafel' : '',
+# 'fit_min': -3.6,
+# 'fit_max': -2, 
+# 'color_index' : 2,
+# },
 
 # 'Co57Ni14Fe29Nx_2' : {
 # 'Ru' : 1.1,  #measured resistance in ohms
@@ -185,20 +185,20 @@ data_set = {
 'color_index' : 2,
 },
 #this one for CV
-'Co45Ni45Fe10Nx' : {
-'Ru' : 1.03, #measured resistance in ohms
-'label' : 'Co<sub>45</sub>Ni<sub>45</sub>Fe<sub>10</sub>N<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.08,
-'data_PEIS' : '',
-'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_01_CV_C04.mpr',
-'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_03_CA_C04.mpr',
-'data_CP' : '',
-'data_Tafel' : '', #'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_04_CP_C04.mpr', 
-'fit_min': -3.6,
-'fit_max': -2,
-'color_index' : 6,
-},
+# 'Co45Ni45Fe10Nx' : {
+# 'Ru' : 1.03, #measured resistance in ohms
+# 'label' : 'Co<sub>45</sub>Ni<sub>45</sub>Fe<sub>10</sub>N<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.08,
+# 'data_PEIS' : '',
+# 'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_01_CV_C04.mpr',
+# 'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_03_CA_C04.mpr',
+# 'data_CP' : '',
+# 'data_Tafel' : '', #'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_04_CP_C04.mpr', 
+# 'fit_min': -3.6,
+# 'fit_max': -2,
+# 'color_index' : 6,
+# },
 
 'Co45Ni45Fe10Nx_3' : {
 'Ru' : 0.86, #measured resistance in ohms
