@@ -15,6 +15,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 0,
 },
 
@@ -28,6 +30,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 1,
 },
 
@@ -41,6 +45,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 2,
 },
 
@@ -54,6 +60,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 3,
 },
 
@@ -67,6 +75,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 4,
 },
 
@@ -80,6 +90,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 5,
 },
 
@@ -93,6 +105,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 6,
 },
 
@@ -106,6 +120,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 7,
 },
 
@@ -118,7 +134,9 @@ data_set = {
 'data_CV' : '',
 'data_CA' : '',
 'data_CP' : '',
-'data_Tafel' : '', 
+'data_Tafel' : '',
+'fit_min': -5,
+'fit_max': -1, 
 'color_index' : 8,
 },
 
@@ -132,6 +150,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 9,
 },
 
@@ -145,6 +165,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 10,
 },
 
@@ -158,6 +180,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 11,
 },
 
@@ -171,6 +195,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 12,
 },
 
@@ -184,6 +210,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 13,
 },
 
@@ -197,6 +225,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 14,
 },
 
@@ -210,6 +240,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 15,
 },
 
@@ -223,6 +255,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 16,
 },
 
@@ -236,6 +270,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 17,
 },
 
@@ -249,6 +285,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 18,
 },
 
@@ -262,6 +300,8 @@ data_set = {
 'data_CA' : '',
 'data_CP' : '',
 'data_Tafel' : '', 
+'fit_min': -5,
+'fit_max': -1,
 'color_index' : 19,
 },
 
