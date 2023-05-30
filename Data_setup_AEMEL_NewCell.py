@@ -5,28 +5,28 @@ import re
 
 data_set = {
 
-'IrOx' : {
-'label' : 'Irox',
-'data_PEIS' : '',
-'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_01_CP_C01.mpr',
-# 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_02_CP_C01.mpr',
-# 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_03_CP_C01.mpr',
-# 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
-# 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
-'color_index' : 0,
-},
-'IrOx2' : {
-'label' : 'Irox',
-'data_PEIS' : '',
+# 'IrOx' : {
+# 'label' : 'IrO<sub>x</sub>',
+# 'data_PEIS' : '',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_01_CP_C01.mpr',
-'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_02_CP_C01.mpr',
-# 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_03_CP_C01.mpr',
-# 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
-# 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
-'color_index' : 0,
-},
+# # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_02_CP_C01.mpr',
+# # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_03_CP_C01.mpr',
+# # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
+# # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
+# 'color_index' : 0,
+# },
+# 'IrOx2' : {
+# 'label' : '',
+# 'data_PEIS' : '',
+# # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_01_CP_C01.mpr',
+# 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_02_CP_C01.mpr',
+# # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_03_CP_C01.mpr',
+# # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
+# # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
+# 'color_index' : 0,
+# },
 'IrOx3' : {
-'label' : 'Irox',
+'label' : '',
 'data_PEIS' : '',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_01_CP_C01.mpr',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_02_CP_C01.mpr',
@@ -36,7 +36,7 @@ data_set = {
 'color_index' : 0,
 },
 'IrOx4' : {
-'label' : 'Irox',
+'label' : '',
 'data_PEIS' : '',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_01_CP_C01.mpr',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_02_CP_C01.mpr',
@@ -46,62 +46,105 @@ data_set = {
 'color_index' : 0,
 },
 'IrOx5' : {
-'label' : 'Irox',
+'label' : 'IrO<sub>x</sub>',
 'data_PEIS' : '',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_01_CP_C01.mpr',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_02_CP_C01.mpr',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_03_CP_C01.mpr',
 # 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
-'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_04_CP_C01.mpr', 
+'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EX6 Tafel post CA_05_CP_C01.mpr', 
 'color_index' : 0,
 },
 
 
-# '2' : {
-# 'Ru' : 1.00,  #measured resistance in ohms
-# 'label' : '2',
-# 'cal' : 0.307, #vs OER
-# 'mass' : 1.00,
+# 'NiCoFeOx1' : {
+# 'label' : 'NiCoFeO<sub>x</sub>',
 # 'data_PEIS' : '',
-# 'data_CV' : '',
-# 'data_CA' : '',
-# 'data_CP' : '',
-# 'data_Tafel' : '', 
-# 'fit_min': -5,
-# 'fit_max': -1,
+# 'data' : 'Data_AEMEL\/2023-05-23 New Cell NiCoFeOx Nafion\EXP 4 PEIS PEIS CA 3h Tafel CP overnight_04_CP_C01.mpr',
 # 'color_index' : 1,
 # },
 
-# '3' : {
-# 'Ru' : 1.00,  #measured resistance in ohms
-# 'label' : '3',
-# 'cal' : 0.307, #vs OER
-# 'mass' : 1.00,
-# 'data_PEIS' : '',
-# 'data_CV' : '',
-# 'data_CA' : '',
-# 'data_CP' : '',
-# 'data_Tafel' : '', 
-# 'fit_min': -5,
-# 'fit_max': -1,
+# 'NiCoFeOx2' : {
+# 'label' : '',
+# 'data_PEIS' : 'Data_AEMEL\/2023-05-23 New Cell NiCoFeOx Nafion\EXP 4 PEIS PEIS CA 3h Tafel CP overnight_05_CP_C01.mpr',
+# 'data' : '',
+# 'color_index' : 1,
+# },
+'NiCoFeOx3' : {
+'label' : '',
+'data_PEIS' : '',
+'data' : 'Data_AEMEL\/2023-05-23 New Cell NiCoFeOx Nafion\EXP 4 PEIS PEIS CA 3h Tafel CP overnight_06_CP_C01.mpr',
+'color_index' : 1,
+},
+'NiCoFeOx4' : {
+'label' : '',
+'data_PEIS' : '',
+'data' : 'Data_AEMEL\/2023-05-23 New Cell NiCoFeOx Nafion\EXP 4 PEIS PEIS CA 3h Tafel CP overnight_07_CP_C01.mpr',
+'color_index' : 1,
+},
+'NiCoFeOx5' : {
+'label' : 'NiCoFeO<sub>x</sub>',
+'data_PEIS' : '',
+'data' : 'Data_AEMEL\/2023-05-23 New Cell NiCoFeOx Nafion\EXP 4 PEIS PEIS CA 3h Tafel CP overnight_08_CP_C01.mpr',
+'color_index' : 1,
+},
+
+
+# 'Co57Ni14Fe29Nx1' : {
+# 'label' : '',
+# 'data' : 'Data_AEMEL\/2023-05-17 New Cell Co57Ni14Fe29Nx Nafion\EXP 3 Tafel steps_01_CP_C01.mpr',
 # 'color_index' : 2,
 # },
 
-# '4' : {
-# 'Ru' : 1.24,  #measured resistance in ohms
-# 'label' : '4',
-# 'cal' : 0.299, #vs OER
-# 'mass' : 1.1,
-# 'data_PEIS' : '',
-# 'data_CV' : '',
-# 'data_CA' : '',
-# 'data_CP' : '',
-# 'data_Tafel' : '', 
-# 'fit_min': -5,
-# 'fit_max': -1,
-# 'color_index' : 3,
+# 'Co57Ni14Fe29Nx2' : {
+# 'label' : '',
+# 'data' : 'Data_AEMEL\/2023-05-17 New Cell Co57Ni14Fe29Nx Nafion\EXP 3 Tafel steps_02_CP_C01.mpr',
+# 'color_index' : 2,
 # },
 
+'Co57Ni14Fe29Nx3' : {
+'label' : '',
+'data' : 'Data_AEMEL\/2023-05-17 New Cell Co57Ni14Fe29Nx Nafion\EXP 3 Tafel steps_03_CP_C01.mpr',
+'color_index' : 2,
+},
+
+'Co57Ni14Fe29Nx4' : {
+'label' : '',
+'data' : 'Data_AEMEL\/2023-05-17 New Cell Co57Ni14Fe29Nx Nafion\EXP 3 Tafel steps_04_CP_C01.mpr',
+'color_index' : 2,
+},
+
+'Co57Ni14Fe29Nx5' : {
+'label' : 'Co<sub>57</sub>Ni<sub>14</sub>Fe<sub>29</sub>N<sub>x</sub>',
+'data' : 'Data_AEMEL\/2023-05-17 New Cell Co57Ni14Fe29Nx Nafion\EXP 3 Tafel steps_05_CP_C01.mpr',
+'color_index' : 2,
+},
+
+# 'Co45Ni45Fe10Nx1' : {
+# 'label' : '',
+# 'data' : 'Data_AEMEL\/2023-05-18 New Cell Co45Ni45Fe10Nx Nafion\EXP 4 PEIS CA Tafel steps CA overnight_04_CP_C01.mpr',
+# 'color_index' : 6,
+# },
+# 'Co45Ni45Fe10Nx2' : {
+# 'label' : '',
+# 'data' : 'Data_AEMEL\/2023-05-18 New Cell Co45Ni45Fe10Nx Nafion\EXP 4 PEIS CA Tafel steps CA overnight_05_CP_C01.mpr',
+# 'color_index' : 6,
+# },
+'Co45Ni45Fe10Nx3' : {
+'label' : '',
+'data' : 'Data_AEMEL\/2023-05-18 New Cell Co45Ni45Fe10Nx Nafion\EXP 4 PEIS CA Tafel steps CA overnight_06_CP_C01.mpr',
+'color_index' : 6,
+},
+'Co45Ni45Fe10Nx4' : {
+'label' : '',
+'data' : 'Data_AEMEL\/2023-05-18 New Cell Co45Ni45Fe10Nx Nafion\EXP 4 PEIS CA Tafel steps CA overnight_07_CP_C01.mpr',
+'color_index' : 6,
+},
+'Co45Ni45Fe10Nx5' : {
+'label' : 'Co<sub>45</sub>Ni<sub>45</sub>Fe<sub>10</sub>N<sub>x</sub>',
+'data' : 'Data_AEMEL\/2023-05-18 New Cell Co45Ni45Fe10Nx Nafion\EXP 4 PEIS CA Tafel steps CA overnight_08_CP_C01.mpr',
+'color_index' : 6,
+},
 # '5' : {
 # 'Ru' : 1.00,  #measured resistance in ohms
 # 'label' : '5',
