@@ -92,7 +92,7 @@ data_set = {
 'data_Tafel' :'', # 'Data_FirstPaper\/2022_01_30 CoNx 1mg ref309_set1_03_CP_C02.mpr', 
 'fit_min': -3.8,
 'fit_max': -2.8,
-'color_index' : 4,
+'color_index' : 7,
 },
 
 # 'CoNx_' : {

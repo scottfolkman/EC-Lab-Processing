@@ -8,7 +8,7 @@ data_set = {
 
 'IrOx5' : {
 'label' : 'IrO<sub>x</sub>',
-'data_PEIS' : '',
+'data_PEIS' : 'Data_AEMEL\/2023-06-06 IrOx stefano control\EXP5 PEIS  tafel steps post overnight_01_PEIS_C01.mpr',
 'data' : 'Data_AEMEL\/2023-05-16 New Cell IrOx Nafion\EXP 5 CP 24h 5amp_C01.mpr', 
 'color_index' : 0,
 },
