@@ -5,35 +5,35 @@ import re
 
 data_set = {
 
-'IrOx_' : {
-'Ru' : 1.0,  #measured resistance in ohms
-'label' : 'IrO<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 0.810,
-'data_PEIS' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_IrOx_Elect2_810ug_307mV_PEIS_C05.mpr',
-'data_CV' : 'Data_FirstPaper/2022_01_26 IrOx 1mg  ref309 elect1 set1_01_CV_C02.mpr',
-'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_IrOx_Elect2_810ug_307mV_03_CA_C04.mpr',
-'data_CP' : '',
-'data_Tafel' : '',  #'Data_FirstPaper2\/2023_02_22_Scott_IrOx_Elect3_1160ug_307mV_04_CP_C01.mpr', 
-'fit_min': -4,
-'fit_max': -1.9,
-'color_index' : 0,
-},
+# 'IrOx_' : {
+# 'Ru' : 1.0,  #measured resistance in ohms
+# 'label' : 'IrO<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 0.810,
+# 'data_PEIS' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_IrOx_Elect2_810ug_307mV_PEIS_C05.mpr',
+# 'data_CV' : 'Data_FirstPaper/2022_01_26 IrOx 1mg  ref309 elect1 set1_01_CV_C02.mpr',
+# 'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_IrOx_Elect2_810ug_307mV_03_CA_C04.mpr',
+# 'data_CP' : '',
+# 'data_Tafel' : '',  #'Data_FirstPaper2\/2023_02_22_Scott_IrOx_Elect3_1160ug_307mV_04_CP_C01.mpr', 
+# 'fit_min': -4,
+# 'fit_max': -1.9,
+# 'color_index' : 0,
+# },
 
-'IrOx_2' : {
-'Ru' : 0.90,  #measured resistance in ohms
-'label' : 'IrO<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 0.970,
-'data_PEIS' : '',
-'data_CV' : '',
-'data_CA' : '',
-'data_CP' : '',
-'data_Tafel' : 'Data_FirstPaper 350 mV/2023_03_29_Scott_IrOx_Elect2(new)_970ug_307mV_peis_350mVCA_longtafel_04_CP_C03.mpr', 
-'fit_min': -4.25,
-'fit_max': -2.75,
-'color_index' : 0,
-},
+# 'IrOx_2' : {
+# 'Ru' : 0.90,  #measured resistance in ohms
+# 'label' : 'IrO<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 0.970,
+# 'data_PEIS' : '',
+# 'data_CV' : '',
+# 'data_CA' : '',
+# 'data_CP' : '',
+# 'data_Tafel' : 'Data_FirstPaper 350 mV/2023_03_29_Scott_IrOx_Elect2(new)_970ug_307mV_peis_350mVCA_longtafel_04_CP_C03.mpr', 
+# 'fit_min': -4.25,
+# 'fit_max': -2.75,
+# 'color_index' : 0,
+# },
 
 # 'Ni60Co30Fe10Ox_2' : {
 # 'Ru' : 1.00,  #measured resistance in ohms
@@ -50,20 +50,20 @@ data_set = {
 # 'color_index' : 1,
 # },
 
-'Ni60Co30Fe10Ox_' : {
-'Ru' : 1.00,  #measured resistance in ohms
-'label' : 'NiCoFeO<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.04,
-'data_PEIS' : '',
-'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_08_Scott_NiCoFeOx_Elect1_1040ug_307mV_350mVCA_01_CV_C04.mpr',
-'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_08_Scott_NiCoFeOx_Elect1_1040ug_307mV_350mVCA_03_CA_C04.mpr',
-'data_CP' : '',
-'data_Tafel' : '', 
-'fit_min': -4.75,
-'fit_max': -3.75,
-'color_index' : 1,
-},
+# 'Ni60Co30Fe10Ox_' : {
+# 'Ru' : 1.00,  #measured resistance in ohms
+# 'label' : 'NiCoFeO<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.04,
+# 'data_PEIS' : '',
+# 'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_08_Scott_NiCoFeOx_Elect1_1040ug_307mV_350mVCA_01_CV_C04.mpr',
+# 'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_08_Scott_NiCoFeOx_Elect1_1040ug_307mV_350mVCA_03_CA_C04.mpr',
+# 'data_CP' : '',
+# 'data_Tafel' : '', 
+# 'fit_min': -4.75,
+# 'fit_max': -3.75,
+# 'color_index' : 1,
+# },
 
 'FeNx_' : {
 'Ru' : 1.10,  #measured resistance in ohms

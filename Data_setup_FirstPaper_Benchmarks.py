@@ -85,20 +85,20 @@ data_set = {
 # 'color_index' : 5,
 # },
 
-'Co57Ni14Fe29Nx' : {
-'Ru' : 0.736,  #measured resistance in ohms
-'label' : 'Co<sub>57</sub>Ni<sub>14</sub>Fe<sub>29</sub>N<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.07,
-'data_PEIS' : '',
-'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_09_Scott_Co57Ni14Fe29Nx_6h_425C_Elect11_1070ug_307mV_350mVCA_01_CV_C04.mpr',
-'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_09_Scott_Co57Ni14Fe29Nx_6h_425C_Elect11_1070ug_307mV_350mVCA_03_CA_C04.mpr',
-'data_CP' : '',
-'data_Tafel' : '',
-'fit_min': -3.6,
-'fit_max': -2, 
-'color_index' : 2,
-},
+# 'Co57Ni14Fe29Nx' : {
+# 'Ru' : 0.736,  #measured resistance in ohms
+# 'label' : 'Co<sub>57</sub>Ni<sub>14</sub>Fe<sub>29</sub>N<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.07,
+# 'data_PEIS' : '',
+# 'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_09_Scott_Co57Ni14Fe29Nx_6h_425C_Elect11_1070ug_307mV_350mVCA_01_CV_C04.mpr',
+# 'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_09_Scott_Co57Ni14Fe29Nx_6h_425C_Elect11_1070ug_307mV_350mVCA_03_CA_C04.mpr',
+# 'data_CP' : '',
+# 'data_Tafel' : '',
+# 'fit_min': -3.6,
+# 'fit_max': -2, 
+# 'color_index' : 2,
+# },
 
 # 'Co57Ni14Fe29Nx2' : {
 # 'Ru' : 0.947,  #measured resistance in ohms
@@ -115,20 +115,20 @@ data_set = {
 # 'color_index' : 13,
 # },
 
-'Co45Ni45Fe10Nx' : {
-'Ru' : 1.03, #measured resistance in ohms
-'label' : 'Co<sub>45</sub>Ni<sub>45</sub>Fe<sub>10</sub>N<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.08,
-'data_PEIS' : '',
-'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_01_CV_C04.mpr',
-'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_03_CA_C04.mpr',
-'data_CP' : '',
-'data_Tafel' : '', #'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_04_CP_C04.mpr', 
-'fit_min': -3.6,
-'fit_max': -2,
-'color_index' : 6,
-},
+# 'Co45Ni45Fe10Nx' : {
+# 'Ru' : 1.03, #measured resistance in ohms
+# 'label' : 'Co<sub>45</sub>Ni<sub>45</sub>Fe<sub>10</sub>N<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.08,
+# 'data_PEIS' : '',
+# 'data_CV' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_01_CV_C04.mpr',
+# 'data_CA' : 'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_03_CA_C04.mpr',
+# 'data_CP' : '',
+# 'data_Tafel' : '', #'Data_FirstPaper 350 mV\/2023_03_07_Scott_Co45Ni45Fe10Nx_6h_425C_Elect1_1080ug_307mV_350mVCA_04_CP_C04.mpr', 
+# 'fit_min': -3.6,
+# 'fit_max': -2,
+# 'color_index' : 6,
+# },
 
 
 
@@ -159,30 +159,30 @@ data_set = {
 # },
 
 
-'12' : {
-'Ru' : 0.90, #measured resistance in ohms
-'label' : 'Co<sub>90</sub>Ni<sub>10</sub>N<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.00,
-'data_PEIS' : '',
-'data_CV' : 'Data_Bimetallics\/2023_06_14  Co90Ni10Nx_1mg_elect2_02_CV_C05.mpr',
-'data_CA' : '',
-'data_CP' : '',
-'data_Tafel' : '', 
-'color_index' : 11,
-},
-'11' : {
-'Ru' : 0.93, #measured resistance in ohms
-'label' : 'Co<sub>90</sub>Fe<sub>10</sub>N<sub>x</sub>',
-'cal' : 0.307, #vs OER
-'mass' : 1.00,
-'data_PEIS' : '',
-'data_CV' : 'Data_Bimetallics\/2023_06_15  Co901010Nx_1mg_elect1_02_CV_C05.mpr',
-'data_CA' : '',
-'data_CP' : '',
-'data_Tafel' : '', 
-'color_index' : 10,
-},
+# '12' : {
+# 'Ru' : 0.90, #measured resistance in ohms
+# 'label' : 'Co<sub>90</sub>Ni<sub>10</sub>N<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.00,
+# 'data_PEIS' : '',
+# 'data_CV' : 'Data_Bimetallics\/2023_06_14  Co90Ni10Nx_1mg_elect2_02_CV_C05.mpr',
+# 'data_CA' : '',
+# 'data_CP' : '',
+# 'data_Tafel' : '', 
+# 'color_index' : 11,
+# },
+# '11' : {
+# 'Ru' : 0.93, #measured resistance in ohms
+# 'label' : 'Co<sub>90</sub>Fe<sub>10</sub>N<sub>x</sub>',
+# 'cal' : 0.307, #vs OER
+# 'mass' : 1.00,
+# 'data_PEIS' : '',
+# 'data_CV' : 'Data_Bimetallics\/2023_06_15  Co901010Nx_1mg_elect1_02_CV_C05.mpr',
+# 'data_CA' : '',
+# 'data_CP' : '',
+# 'data_Tafel' : '', 
+# 'color_index' : 10,
+# },
 
 '13' : {
 'Ru' : 1.00, #measured resistance in ohms
