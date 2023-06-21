@@ -72,26 +72,26 @@ data_set = {
 # 'color_index' : 8,
 # },
 
-'IrOx3' : {
-'label' : '',
-'data_PEIS' : '',
-'data' : 'Data_AEMEL\/2023-06-06 IrOx stefano control\EXP5 PEIS  tafel steps post overnight_05_CP_C01.mpr', 
-'color_index' : 8,
-},
+# 'IrOx3' : {
+# 'label' : '',
+# 'data_PEIS' : '',
+# 'data' : 'Data_AEMEL\/2023-06-06 IrOx stefano control\EXP5 PEIS  tafel steps post overnight_05_CP_C01.mpr', 
+# 'color_index' : 8,
+# },
 
-'IrOx4' : {
-'label' : '',
-'data_PEIS' : '',
-'data' : 'Data_AEMEL\/2023-06-06 IrOx stefano control\EXP5 PEIS  tafel steps post overnight_06_CP_C01.mpr', 
-'color_index' : 8,
-},
+# 'IrOx4' : {
+# 'label' : '',
+# 'data_PEIS' : '',
+# 'data' : 'Data_AEMEL\/2023-06-06 IrOx stefano control\EXP5 PEIS  tafel steps post overnight_06_CP_C01.mpr', 
+# 'color_index' : 8,
+# },
 
-'IrOx1' : {
-'label' : 'IrO<sub>x</sub>-stefano',
-'data_PEIS' : '',
-'data' : 'Data_AEMEL\/2023-06-06 IrOx stefano control\EXP5 PEIS  tafel steps post overnight_07_CP_C01.mpr', 
-'color_index' : 8,
-},
+# 'IrOx1' : {
+# 'label' : 'IrO<sub>x</sub>-stefano',
+# 'data_PEIS' : '',
+# 'data' : 'Data_AEMEL\/2023-06-06 IrOx stefano control\EXP5 PEIS  tafel steps post overnight_07_CP_C01.mpr', 
+# 'color_index' : 8,
+# },
 
 # 'NiCoFeOx1' : {
 # 'label' : 'NiCoFeO<sub>x</sub>',
