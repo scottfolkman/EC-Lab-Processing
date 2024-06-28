@@ -11,7 +11,7 @@ data_set = {
 'cal' : 0.313, 
 'mass' : 1.03,
 'data_PEIS' : 'Lares Oxides/2024-6-26 CoOx on FTO_1_03mg_01_PEIS_C05.mpr',
-'data_CV' : 'Lares Oxides/2024-6-26 CoOx on FTO_1_03mg_02_CV_C05.mpr',
+'data_CV' : 'Lares Oxides/2024-6-26 CoOx on FTO_1_03mg_02_CV_C05.mpt',
 'data_CA' : '',
 'data_CP' : 'Lares Oxides/2024-6-26 CoOx on FTO_1_03mg_03_CP_C05.mpr',
 'data_Tafel' : '', 
@@ -24,7 +24,7 @@ data_set = {
 'cal' : 0.313, #calibration of the Hg/HgO electrode vs RHE converting to overpotential vs OER MUST BE UPDATED WHEN USING A DIFFERENT REF ELECTRODE
 'mass' : 2.5, #actual mass of catalyst
 'data_PEIS' : 'Lares Oxides/2024-6-21 NiOx on FTO_2_50mg_01_PEIS_C05.mpr', #file path the slash needs to be '/' rather than the '\' which is automatic
-'data_CV' : 'Lares Oxides/2024-6-21 NiOx on FTO_2_50mg_02_CV_C05.mpr',
+'data_CV' : 'Lares Oxides/2024-6-21 NiOx on FTO_2_50mg_02_CV_C05.mpt',
 'data_CA' : '',
 'data_CP' : 'Lares Oxides/2024-6-21 NiOx on FTO_2_50mg_CP1_C02.mpr',
 'data_Tafel' : '',
