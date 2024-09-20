@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np 
 import re
 #file path the slash needs to be '/' rather than the '\' which is automatic
+# the label is what is used in the figure legends to make subscripts use: <sub>x</sub>, 
 
 data_set = {
 
